@@ -1,0 +1,28 @@
+$green: #4CAF50;
+.habits-tracker-header{
+    height: 5rem;
+    padding: 1rem;
+    background: $green;
+}
+.header-name{
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    line-height: 1.8rem;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 1rem;
+}
+@media (max-width: 1024px) {
+    .habits-tracker-header{
+        width: 100%;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .header-name{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
