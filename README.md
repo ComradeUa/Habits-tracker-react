@@ -34,18 +34,18 @@ Habits Tracker is an application for tracking habits that helps users create, ed
 
 ## Project Structure
 
-# src/components: Application components.
+1. src/components: Application components.
 
-# HabitList: Component for displaying the list of habits.
+2. HabitList: Component for displaying the list of habits.
 
-# HabitItem: Component for displaying a single habit.
+3. HabitItem: Component for displaying a single habit.
 
-# EditHabitItem: Component for editing a habit.
+4. EditHabitItem: Component for editing a habit.
 
-# InputField: Component for entering a new habit.
+5. InputField: Component for entering a new habit.
 
-# src/hooks: Custom hooks.
+6. src/hooks: Custom hooks.
 
     useHabit: Hook for managing habit state.
 
-# src/features/habits: Redux slice for managing habit state.
+7. src/features/habits: Redux slice for managing habit state.
